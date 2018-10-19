@@ -20,8 +20,8 @@ body {
 }
 
 .container {
-    flex: 0 0 30%;
-    height: 40vh;
+    flex: 0 0 40%;
+    height: 50vh;
     background-color: purple;
     opacity: .9;
     border: 1px solid blueviolet;
@@ -46,6 +46,12 @@ body {
 
 h3 {
     border-bottom: 1px dashed blueviolet;
+}
+
+.fact {
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 768px) {
